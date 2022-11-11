@@ -1,0 +1,296 @@
+@charset "UTF-08" ;
+
+*{
+    list-style-type: none;
+    font-family: serif;
+}
+
+body{
+    font-size: 100%;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    font-size: 100%;
+    width: 100%;
+}
+
+.bx-wrapper{
+    margin: 0 !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    background: none !important;
+
+}
+
+#header{
+    background-color: #96c2e8;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-title img{
+    width: 98px;
+    height: 70px;
+    margin-left: 25px;
+}
+
+.title-select ul{
+    display: flex;
+}
+
+.title-select li{
+    margin-right: 30px;
+    line-height: 35px;
+    color: white;
+    
+}
+
+#header li img{
+    width: 40px;
+    height: 40px;
+}
+
+#main_img{
+    position: relative;
+}
+
+#main_img .main_title{
+    position: absolute;
+    top: 77px;
+    left: 139px;
+    color: white;
+    text-align: center;
+}
+
+.main_title h1{
+    font-size: 50px;
+}
+
+.main_title p{
+    font-size: 20px;
+    margin-top: -25px;
+}
+
+#main_img img{
+    width: 100%;
+    height: 550px;
+    vertical-align: top;
+    object-fit: cover;
+}
+
+#news{
+    background-color: #f0eadf ;
+}
+
+.wrapper{
+    text-align: center;
+    padding-top: 128px;
+}
+
+.wrapper h2{
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.wrapper p{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.news_container{
+    margin-top: 89px;
+}
+
+.news_wrapper{
+    display: flex;
+    justify-content: space-around;
+    width:1198px;
+    margin: 0 auto;
+}
+
+.news_item{
+    text-align: center;
+    font-size: 14px;
+    width: 256px;
+    height: 323px;
+    margin-bottom: 61px;
+}
+
+.news_item img{
+    object-fit: cover;
+}
+
+.news_title{
+    font-size: 16px;
+}
+
+.news_sentence{
+    text-align: left;
+    font-size: 14px;
+}
+
+#works{
+    text-align: center;
+    padding-bottom: 147px;
+}
+
+#works h2{
+    font-size: 48px;
+    margin-top: 61px;
+    margin-bottom: 70px;
+}
+
+#works img{
+    width: 290px;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+#works img:hover{
+    transform: scale(1.5);
+}
+
+.works_item{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 50px;
+ width: 970px;
+ margin: 0 auto;
+}
+
+#company{
+    text-align: center;
+    background-image: url(../img/company.png);
+    background-size: cover;
+    padding-bottom: 95px;
+    height: 1222px;
+}
+
+#company h3{
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 48px;
+}
+
+#company .overview{
+    font-size: 20px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top:35px;
+    margin-left: 282px;
+    margin-bottom: 181px;
+}
+
+.content_photo img{
+    border-radius: 50%;
+    width: 351px;
+    height: 353px;
+}
+
+.company_profile{
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 139px;
+}
+
+.years_career{
+    margin: 0 auto;
+    width: 700px;
+    height: 330px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.years{
+    font-size: 35px;
+    border-top: 1px solid black;
+    width: 40%;
+    line-height: 75px;
+}
+
+.years_last{
+    border-bottom: 1px solid black;
+}
+
+.career_last{
+    border-bottom: 1px solid black;
+}
+
+.career{
+    font-size: 25px;
+    line-height: 75px;
+    border-top: 1px solid black;
+    text-align: left;
+    width: 60%;
+}
+
+.service_slider img{
+    margin-right: 30px;
+    height: 205px;
+}
+
+#contact{
+    background-image: url(../img/contact_back.png);
+    background-size: cover;
+    color: white;
+    height: 900px;
+    margin-top: 128px;
+    padding-bottom: 190px;
+}
+
+.from_container{
+    padding-left: 40px;
+}
+
+.from_item{
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+ .from_input{
+    width: 496px;
+    height: 38px;
+    margin-left: 100px;
+}
+
+.from_content input,textarea,.buttom{
+    border: none;
+}
+
+.textarea_content{
+    height: 196px;
+}
+
+td{
+    vertical-align:top;
+}
+
+.buttom{
+    text-align: center;
+    margin-bottom: 190px;
+    
+}
+
+.buttom_from{
+    padding: 5px 80px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    height: 40px;
+    line-height: 20px;
+}
